@@ -1,0 +1,25 @@
+# Ignore the Jenkins server directory (if not meant to be tracked)
+/jenkins-server/
+
+# Local Terraform directories (crucial for the large file issue)
+**/.terraform/
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Other common Terraform excludes
+*.tfvars
+*.tfvars.json
+override.tf
+*_override.tf
+crash.log
+*.log
+*.tmp
+*.bak
+*.swp
+*.pid
+*.orig
+*.rej
+*.DS_Store
+*.class 
