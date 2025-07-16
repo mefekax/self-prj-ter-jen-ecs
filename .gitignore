@@ -1,6 +1,6 @@
 # Ignore the Jenkins server directory (if not meant to be tracked)
 /jenkins-server/
-
+/node_modules/
 # Local Terraform directories (crucial for the large file issue)
 **/.terraform/
 
